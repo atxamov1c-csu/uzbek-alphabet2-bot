@@ -38,7 +38,7 @@ def send_welcome(message):
   bot.reply_to(
       message,
       "Assalomu alaykum! Menga matn yuboring, men uni yangi o'zbek alifbosiga"
-      " o'tkazib beraman (Ŏ, Ğ, Ş, Ç, Ŋ).",
+      " o'tkazib beraman (Ŏ, Ğ, Ş, Ç).",
   )
 
 
