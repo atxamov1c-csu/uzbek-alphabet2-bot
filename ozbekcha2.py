@@ -52,7 +52,6 @@ def translate_text(message):
   bot.reply_to(message, converted_text)
 
 
-# Фейковый веб-сервер, чтобы Render не ругался на отсутствие порта
 class SimpleHandler(BaseHTTPRequestHandler):
 
   def do_GET(self):
