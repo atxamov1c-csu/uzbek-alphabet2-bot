@@ -1,0 +1,1 @@
+worker: python ozbekcha2.py
