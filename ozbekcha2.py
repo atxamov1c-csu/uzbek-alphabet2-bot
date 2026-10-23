@@ -170,9 +170,9 @@ def send_welcome(message):
     log_user(message.from_user)
     bot.reply_to(
         message,
-        "Assalomu alaykum! Menga matn yuboring, men uni yangi o'zbek alifbosiga o'tkazib beraman (Ŏ, Ğ, Ş, Ç).\n\n"
-        "💡 Meni guruhlarda va boshqa chatlarda qo'shmasdan ham ishlatishingiz mumkin: shunchaki xabar yozish joyida "
-        "`@bot_username matn` deb yozing!",
+        "Assalomu alaykum!\n Menga matn yuboring, men uni yangi özbek alifbosiga ötkazib beraman (Ŏ, Ğ, Ş, Ç).\n\n"
+        "💡Meni guruhlarda va boşqa çatlarda qöşmasdan ham işlatişingiz mumkin: şunçaki xabar yoziş joyida "
+        "`@ozbekca2_bot matn` deb yozing!",
         parse_mode="Markdown"
     )
 
