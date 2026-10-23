@@ -8,7 +8,8 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import telebot
 from telebot.types import InlineQueryResultArticle, InputTextMessageContent
 
-TOKEN = "8998834423:AAFxxRncTDS3aW0Y7xSLBKPnpxsQTF52-r4"
+# Вместо открытого токена используем системную переменную
+TOKEN = os.environ.get("BOT_TOKEN")
 ADMIN_ID = 1281646026
 
 bot = telebot.TeleBot(TOKEN)
